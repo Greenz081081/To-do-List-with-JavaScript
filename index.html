@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple To Do App</title>
+    <link rel="icon" type="image/x-icon" href="/images/graphic-designer.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <h1>Today</h1>
+            <form action="#" id="todo-form">
+                <input type="text" name="task-name" id="user-input" placeholder="e.g Buy groceries">
+                <button type="submit">ADD TASK</button>
+            </form>
+        </div>
+    </header>
+    <section>
+        <div class="container" id="main-content">
+            <ul class="stats">
+                <li>
+                    <span id="remaining-tasks-notice">Remaining</span>
+                    <span id="remaining-tasks">0</span>
+                </li>
+                <li>
+                    <span id="completed-tasks-notice">Completed</span>
+                    <span id="completed-tasks">0</span>
+                </li>
+                <li>
+                    <span id="total-tasks-notice">Total</span>
+                    <span id="total-tasks">0</span>
+                </li>
+            </ul> 
+            <ul class="todos">
+               
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p><small>Design By <a href="hhtps://adipurdila.com/" target="_blank">Emerald Devs</a>. Code by
+                <a href="http://georgemartsoukos.com/" target="_blank">George MartSoukos</a></small></p>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
